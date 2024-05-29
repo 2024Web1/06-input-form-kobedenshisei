@@ -10,5 +10,8 @@
 
     echo '<p>あなたの好きなフルーツは、' . $fruit . 'ですね。</p>';
     ?>
+    <form>
+        <input type="button" value="戻る" onclick="history.back()">
+    </form>
 </body>
 </html>

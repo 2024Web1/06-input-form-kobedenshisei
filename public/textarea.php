@@ -11,5 +11,8 @@
         echo '<p>入力された文章はつぎのとおりです。</p>';
         echo '<p>' . $input_text . '</p>';
     ?>
+    <form>
+        <input type="button" value="戻る" onclick="history.back()">
+    </form>
     </body>
 </html>
