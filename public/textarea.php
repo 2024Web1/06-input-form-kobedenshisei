@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-    <meta charset="UTF-8">
-    <title>テキストエリア練習問題(結果)</title>
+        <meta charset="UTF-8">
+        <title>テキストエリア練習問題(結果)</title>
     </head>
     <body>
         <?php
