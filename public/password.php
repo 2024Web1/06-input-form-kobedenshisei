@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
     <title>パスワードの練習(送信後)</title>
-</head>
+    </head>
 <body>
     <?php
     $user = isset($_POST['user']) ? htmlspecialchars($_POST['user'], ENT_QUOTES, 'UTF-8') : '';

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
     <title>プルダウンメニューの練習(結果)</title>
-</head>
+    </head>
 <body>
     <?php
     $fruit = isset($_POST['fruit']) ? htmlspecialchars($_POST['fruit'], ENT_QUOTES, 'UTF-8') : '';
